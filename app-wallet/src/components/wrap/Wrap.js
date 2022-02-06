@@ -10,9 +10,11 @@ const Wrap = () => {
       <div className='container'>
         <div className='cal-md-12'>
       <div className='cal-md-6 wrapBtnSwapDiv'>
+      <Link to=''>
      <button className='btn wrapBtnSwap1'>
        Wrap
      </button>
+     </Link>
      <Link to='/unwrap'>
      <button className='btn wrapBtnSwap2'>
     Unwrap
@@ -44,7 +46,7 @@ const Wrap = () => {
             </div>
 
             <div className='wrapBtnDvi'>
-              <button className='btn btn-success wrapBtn'>
+              <button className=' wrapBtn'>
                 Wrap
               </button>
             </div>

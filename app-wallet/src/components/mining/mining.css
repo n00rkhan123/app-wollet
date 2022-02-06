@@ -1,5 +1,5 @@
 .miningBackground{
-    height: 1000px;
+    height: 1103px;
     background: #171821;
 }
 .minngIner {
@@ -98,7 +98,8 @@ line-height: 24px;
         font-weight: 400;
     }
     .minngIner {
-        padding-top: 64px; 
-         padding-left: 51px;
+        padding-top: 65px;
+        padding-left: 1px;
     }
+  
 }

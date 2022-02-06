@@ -17,7 +17,7 @@ const Energize = () => {
             </div>
             <div className='ebergizeInput'>
               <form action='/action_page.php'>
-                <div className='form-group energizeDiv1'>
+                <div className='form-group energizeDiv2'>
                   {/* <label for='email'>Email address:</label> */}
                   <input type='email' className='form-control energizeForm' placeholder='EnterTX Hash' id='email'/>
                 </div>

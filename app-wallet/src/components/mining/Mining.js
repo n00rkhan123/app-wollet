@@ -34,7 +34,7 @@ const Mining = () => {
         </div>
         </div>
         <div className='col-md-10 miningRow1'>
-          <div>
+          <div className='miningimgediv'>
           <img className='miningImg' src={imge1}/>
             <img className='miningImg' src={imge2}/>
           </div>

@@ -29,20 +29,15 @@
 }
 
 
-a:active {
-    color: blue;
-}
-a[tabindex]:focus {
-    color:blue;
-    outline: none;
-    border: 1px solid white;
-}
+
+
   @media (max-width: 991px) and (min-width: 320px) {
     .footer-container .backGround {
       left: 10px;
-      right: 10px;
-      width: 95%;
-    }
+      right: 3px;
+      width: 70%;
+      left: 15%;
+  }
     .footer-container .mobile_menu {
       display: block;
     }

@@ -55,29 +55,49 @@ const Footer = () => {
           {show && (
             <div className="nav_model col-5">
               <div className="w-full">
-                <div>
-                  <p>Home</p>
-                </div>
-                <div>
-                  <p>Stake</p>
-                </div>
-                <div>
-                  <p>Mining</p>
-                </div>
+              <div>
+              <Link to='/energize'>
+              <p>Energize</p>
+              </Link>
+              </div>
+              <div>
+              <Link to='/wrap'>
+              <p>Wrap</p>
+              </Link>
+              </div>
+              <div>
+              <Link to='/energize'>
+              <p>Energize</p>
+              </Link>
+              </div>
+              <div>
+            <Link to='/nft'>
+              <p>NFT</p>
+              </Link>
+            </div>
               </div>
             </div>
           )}
           <div className="mobile_menu px-10">
             <div className="col-12 backGround d-flex justify-content-around">
-              <div>
-                <p>Home</p>
-              </div>
-              <div>
-                <p>Stake</p>
-              </div>
-              <div>
-                <p>Mining</p>
-              </div>
+            <div>
+              <Link to='/'>
+              <p>Home</p>
+              </Link>
+            </div>
+            <div>
+              <Link to='/stake'>
+              <p>Stake</p>
+              </Link>
+              
+            </div>
+            <div>
+            <Link to='/mining'>
+              <p>Mining</p>
+              </Link>
+            </div>
+            
+              
               <div className="hamburger">
                 {show ? (
                   <div
