@@ -1,0 +1,39 @@
+.backGroud1{
+    height: 1000px;
+background: #171821;
+}
+
+
+
+.paraNft{
+    color: white;
+        width: 462px;
+        padding-bottom: 52px;
+}
+.outerDiv1{
+    display: flex;
+    flex-direction: column;
+    /* width: 50%; */
+    align-items: center;
+    padding-top: 100px;
+}
+.nftHeading1{
+    font-family: Clash Display;
+font-weight: normal;
+font-size: 48px;
+line-height: 64px;
+color: white;
+}
+.nftHeading2 {
+    font-weight: 1000;
+    padding-bottom: 32px;
+    padding-right: 368px;
+    color: white;
+    /* border: 1px solid black; */
+}
+button.btn.btn-success.nftBtn {
+    width: 406px;
+    padding: 15px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #1570EF 0%, #9E77ED 100%);
+}

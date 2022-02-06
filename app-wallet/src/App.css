@@ -1,0 +1,13 @@
+/* @font-face{
+    font-family:"ClashDisplay;";
+     src:url("./Assets/font/ClashDisplay-Regular.woff") format("woff"),
+     url("./Assets/font/GoogleSans-Bold.ttf") format("opentype"),
+     url("./Assets/font/GoogleSans-Bold.ttf") format("truetype");
+   }
+   body{
+       font-family:clashdisplay;
+   } */
+   body {
+    font-family: "Space Grotesk", sans-serif;
+  }
+  

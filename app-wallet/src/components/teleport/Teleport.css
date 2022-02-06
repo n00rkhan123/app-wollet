@@ -1,0 +1,192 @@
+
+.teleportBackGroud{
+    height: 1000px;
+    background: #171821;
+}
+.teleportOuter{
+    display: flex;
+    flex-direction: column;
+    /* width: 50%; */
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    width: 30%;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid rgba(158, 119, 237, 1);
+    border-radius: 7px;
+}
+.teleportHeading{
+    color: white;
+    font-size: x-large;
+    font-weight: 500;
+
+}
+.teleportHeadingDiv{
+    padding-bottom: 19px;
+    width: 90%;
+}
+
+.teleportBtn{
+    width: 406px;
+    padding: 10px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #1570EF 0%, #9E77ED 100%);
+
+}
+.teleportInput{
+    padding-bottom: 37px;
+}
+.teleportIner {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #212325;
+    width: 92%;
+    background: #212325;
+    padding: 17px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.teleportBtnDvi {
+    padding-top: 40px;
+}
+.teleportSpan1 {
+    color: white;
+    padding-left: 14px;
+    padding-top: 2px;
+}
+/* .teleportPara1 {
+    font-size: 28px;
+    padding-top: 7px;
+    color: gray;
+    font-weight: 400;
+} */
+/* .teleportPara3 {
+    padding: 0px!important;
+    margin-top: 27px;
+    position: absolute;
+    top: 52%;
+} */
+.teleportMd {
+    padding-left: 34px;
+}
+.teleportSpan2{
+    color: gray;
+}
+/* .teleportSpan3{
+    color: #9E77ED ;
+} */
+
+.teleportBtnSwap2{
+    border: 1px solid;
+    background: rgba(33, 35, 37, 1);
+    border: 1px solid  rgba(33, 35, 37, 1);
+    border-radius: 7px;
+    color: white;
+    padding: 9px;
+    width: 250px;
+}
+.teleportBtnSwap1{
+    border: 1px solid;
+    background: linear-gradient(90deg, #1570EF 0%, #9E77ED 100%);
+    border: 1px solid rgba(158, 119, 237, 1);
+    border-radius: 7px;
+    color: white;
+    padding: 9px;
+    width: 250px;
+}
+.teleportBtnSwapDiv {
+    text-align: center;
+    /* padding-top: 113px; */
+    top: 21%;
+    left: 35%;
+    position: absolute;
+}
+
+.teleportDropDown {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 28px;
+}
+
+.teleportNewNmae{
+    color: rgba(158, 119, 237, 1);
+}
+.teleportEth2{
+    padding-left: 10px;
+}
+.teleportNewDiv {
+    /* border: 2px solid white; */
+    padding-left: 16px;
+    display: flex;
+    justify-content: space-between;
+    border-left: 1px solid #171821;
+}
+@media (max-width: 1292px) {
+    .teleportBtnSwap2 {
+        border: 1px solid;
+        background: rgba(33, 35, 37, 1);
+        border: 1px solid rgba(33, 35, 37, 1);
+        border-radius: 7px;
+        color: white;
+        padding: 9px;
+        width: 30%;;
+    }
+    .teleportBtnSwap1 {
+        border: 1px solid;
+        background: linear-gradient(
+    90deg
+    , #1570EF 0%, #9E77ED 100%);
+        border: 1px solid rgba(158, 119, 237, 1);
+        border-radius: 7px;
+        color: white;
+        padding: 9px;
+        width: 30%;
+    }
+    .teleportBtnSwapDiv {
+        text-align: center;
+        /* padding-top: 113px; */
+        top: 21%;
+        width: 100%;
+        left: 0%;
+        position: absolute;
+    }
+    .teleportOuter {
+        display: flex;
+        flex-direction: column;
+        /* width: 50%; */
+        position: absolute;
+        top: 30%;
+        left: 18%;
+        width: 61%;
+        align-items: center;
+        padding: 20px;
+        border: 1px solid rgba(158, 119, 237, 1);
+        border-radius: 7px;
+    }
+    .teleportBtnDvi {
+        padding-top: 40px;
+        width: 100%;
+    }
+    .teleportIner {
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid #212325;
+        width: 92%;
+        background: #212325;
+        padding: 17px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+
+.teleportBtn {
+    width: 99%;
+    padding: 10px;
+    border-radius: 8px;
+    background: linear-gradient(
+90deg
+, #1570EF 0%, #9E77ED 100%);
+}
+    
+     
+}

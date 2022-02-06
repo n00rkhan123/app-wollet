@@ -1,0 +1,104 @@
+.miningBackground{
+    height: 1000px;
+    background: #171821;
+}
+.minngIner {
+    padding-top: 64px;
+    padding-left: 150px;
+}
+.miningTvlDiv {
+    display: flex;
+    justify-content: space-around;
+}
+.miningRow1 {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid  #9E77ED ;
+    border-radius: 10px;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    position: relative;
+    background: #212325;
+}
+.miningRow2 {
+    background: #212325;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid    #9E77ED ;
+    border-radius: 10px;
+    padding-top: 30px;
+    position: relative;
+}
+.miningFMTApara {
+    position: absolute;
+    right: 67%;
+    top: 28%;
+    border: 38%;
+    font-size: 25px;
+    font-weight: 400;
+}
+.miningFMTApara1 {
+    position: absolute;
+    right: 67%;
+    top: 28%;
+    border: 38%;
+    font-size: 25px;
+    font-weight: 400;
+}
+.miningPara4{
+    font-weight: 400;
+font-size: 28px;
+line-height: 24px;
+}
+.miningPara3{
+    font-weight: 400;
+    font-size: 28px;
+line-height: 24px;
+}
+.miningImg {
+    vertical-align: middle;
+    padding-right: 7px;
+}
+.miningPara5 {
+    padding-left: 30px;
+    font-size: 13px;
+}
+.miningPara1 {
+    font-size: 25px;
+    font-weight: 500;
+}
+.miningPara2 {
+    font-size: 17px;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+.miningTvl{
+    font-size: 19px;
+}
+.miningTvl1{
+    font-size: 19px;
+    position: absolute;
+    left: 53%  
+}
+@media (max-width: 1220px) {
+    .miningFMTApara1 {
+        position: absolute;
+        right: 55%;
+        top: 28%;
+        border: 38%;
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .miningFMTApara {
+        position: absolute;
+        right: 55%;
+        top: 28%;
+        border: 38%;
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .minngIner {
+        padding-top: 64px; 
+         padding-left: 51px;
+    }
+}
