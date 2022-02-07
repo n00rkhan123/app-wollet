@@ -1,7 +1,7 @@
 
 .homeBackGroud {
-    height: 3724px;
     background: #171821;
+    height: 3901px;
 }
 .homeOuter {
     display: flex;
@@ -290,6 +290,9 @@ line-height: 24px;
     90deg
     , #1570EF 0%, #9E77ED 100%);
     }
-    
+    .homeBackGroud {
+        background: #171821;
+        height: 3901px;
+    }
 }
 

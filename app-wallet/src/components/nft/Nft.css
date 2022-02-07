@@ -51,8 +51,9 @@ button.btn.btn-success.nftBtn {
     .paraNft {
         color: white;
         /* width: 462px; */
-        padding: 56px;
+        padding: 57px;
         /* padding-bottom: 52px; */
+    
     }
     .nftHeading1 {
         font-family: Clash Display;
@@ -61,5 +62,11 @@ button.btn.btn-success.nftBtn {
         line-height: 64px;
         color: white;
         padding: 26px;
+    }
+    .nftBtnDiv{
+        width: 100%;
+    }
+    .nftBtn{
+        width: 100%;
     }
         }
