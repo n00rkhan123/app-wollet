@@ -24,7 +24,7 @@ const Nft = () => {
                 So feel free to mint your own. Just need 100 fmta in your wallet and you can mint a different NFT on each chain. Get in and collect them all so you can say "I was there!" to your grandkids.
               </p>
             </div>
-            <div>
+            <div className='nftBtnDiv'>
               <button className='btn btn-success nftBtn'>
                 MINT
               </button>

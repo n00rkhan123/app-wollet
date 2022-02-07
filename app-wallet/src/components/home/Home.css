@@ -185,31 +185,7 @@ line-height: 24px;
     margin-left: 79px;
 }
 
-@media (max-width: 1704px) {
-    .homeOuter {
-        display: flex;
-        flex-direction: column;
-        /* width: 50%; */
-        position: absolute;
-        top: 15%;
-        left: 25%;
-        background: rgba(33, 35, 37, 1);
-        width: 50%;
-        align-items: center;
-        padding-top: 33px;
-        padding-bottom: 40px;
-        border: 1px solid rgba(158, 119, 237, 1);
-        border-radius: 15px;
-    }
-    .wrapBtn {
-        width: 81%;
-        padding: 10px;
-        border-radius: 8px;
-        background: linear-gradient(
-    90deg
-    , #1570EF 0%, #9E77ED 100%);
-    }
-}
+
 
 
 @media (max-width: 765px) {

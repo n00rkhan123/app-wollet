@@ -130,24 +130,10 @@
 }
 
 @media (max-width:1560px){
-    .stackTwobutton {
-        position: absolute;
-        left: 80%;
-        top: 20%;
-        display: none;
-    }
-    .stackOuter {
-        display: flex;
-        flex-direction: column;
-        /* width: 50%; */
-        position: absolute;
-        top: 30%;
-        left: 25%;
-        width: 50%;
-        align-items: center;
-        padding: 35px;
-        border: 1px solid rgba(158, 119, 237, 1);
-        border-radius: 7px;
+   
+    .homeBackGroud {
+        background: #171821;
+        height: 3901px;
     }
     .wrapBtn {
         width: 100%;
@@ -161,17 +147,9 @@
         text-align: center;
         /* padding-top: 113px; */
         top: 21%;
-        width: 100%;
-        left: 0%;
-        position: absolute;
-    }
-    .stackBtnSwapDiv {
-        text-align: center;
-        /* padding-top: 113px; */
-        top: 21%;
         display: flex;
-        width: 52%;
-        left: 24%;
+        width: 30%;
+        left: 35%;
         position: absolute;
     }
     .stackBtnSwap1 {
@@ -194,6 +172,9 @@
         padding: 9px;
         width: 100%;
     }
+    .wrapMd {
+        padding-left: 0px;
+    }
     .wrapBtn {
         width: 100%;
         padding: 10px;
@@ -207,7 +188,12 @@
 
 @media (max-width: 765px) {
     
-
+    .stackTwobutton {
+        position: absolute;
+        left: 80%;
+        top: 20%;
+        display: none;
+    }
     .stackOuter {
         display: flex;
         flex-direction: column;
@@ -229,5 +215,13 @@
         top: 37%;
         left: 43%;
     }
+    }
+    @media(max-width:1274px){
+        .stackTwobutton {
+            position: absolute;
+            left: 80%;
+            top: 20%;
+            display: none;
+        }
     }
   

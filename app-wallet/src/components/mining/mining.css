@@ -147,3 +147,23 @@ line-height: 24px;
             padding-left:0px;
            }
 }
+@media (max-width:1560px) {
+    .miningFMTApara1 {
+        position: absolute;
+        right: 63%;
+        top: 28%;
+        border: 38%;
+        font-size: 25px;
+        font-weight: 400;
+    }
+    
+    .miningFMTApara {
+        position: absolute;
+        right: 63%;
+        top: 28%;
+        border: 38%;
+        font-size: 25px;
+        font-weight: 400;
+    }    
+    
+}
