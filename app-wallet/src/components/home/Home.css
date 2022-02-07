@@ -1,6 +1,6 @@
 
-.homeBackGroud{
-    height: 3500px;
+.homeBackGroud {
+    height: 3724px;
     background: #171821;
 }
 .homeOuter {
@@ -270,12 +270,12 @@ line-height: 24px;
     .homeOuter {
         display: flex;
         flex-direction: column;
-        /* width: 50%; */
+        width: 71%;
         position: absolute;
         top: 21%;
-        left: 17%;
+        left: 9%;
         background: rgba(33, 35, 37, 1);
-        width: 62%;
+        width: 82%;
         align-items: center;
         padding-top: 33px;
         padding-bottom: 40px;

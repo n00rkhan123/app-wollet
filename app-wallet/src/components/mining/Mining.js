@@ -8,7 +8,7 @@ import imge3 from '../../assets/ETHDollarMinin.png'
 const Mining = () => {
   return <div>
 <div className='miningBackground'>
-  <div className='container'>
+  <div className='container miningContainer'>
     <div className='row'>
       <div className='col-md-12 minngIner'>
         <div>

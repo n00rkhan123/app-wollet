@@ -102,7 +102,7 @@
     position: absolute;
 }
 
-@media (max-width: 1704px) {
+/* @media (max-width: 1704px) {
     .wrapBtnDvi {
         padding-top: 40px;
         width: 100%;
@@ -126,7 +126,7 @@
     }
     
     
-} ;
+} ; */
 
 
 @media (max-width: 765px) {
@@ -135,39 +135,15 @@
         /* margin-top: 27px; */
         position: absolute;
         top: 52%;
-        left: 64%;
+        left: 47%;
     }
-    .wrapOuter {
-        display: flex;
-        flex-direction: column;
-        /* width: 50%; */
-        position: absolute;
-        top: 30%;
-        left: 16%;
-        width: 66%;
-        align-items: center;
-        padding: 35px;
-        border: 1px solid rgba(158, 119, 237, 1);
-        border-radius: 7px;
-    }
+   
+    
     .wrapBtnSwapDiv {
         display: flex;
-        width: 38%;
-        padding-top: 60px;
-        left: 5%;
-    }
-    .wrapOuter {
-        display: flex;
-        flex-direction: column;
-        /* width: 50%; */
-        position: absolute;
-        top: 30%;
-        left: 21%;
-        width: 51%;
-        align-items: center;
-        padding: 35px;
-        border: 1px solid rgba(158, 119, 237, 1);
-        border-radius: 7px;
+        width: 56%;
+        padding-top: 7px;
+        left: 26%;
     }
     .wrapBtnDvi {
         padding-top: 40px;
@@ -199,16 +175,29 @@
         padding: 9px;
         width: 100%;
     }  
+    .wrapOuter {
+        display: flex;
+        flex-direction: column;
+        /* width: 50%; */
+        position: absolute;
+        top: 30%;
+        left: 6%;
+        width: 88%;
+        align-items: center;
+        padding: 35px;
+        border: 1px solid rgba(158, 119, 237, 1);
+        border-radius: 7px;
+    }
       
 }
 
 
 
-@media (max-width: 1448px) {
+/* @media (max-width: 1448px) {
     .wrapOuter {
         display: flex;
         flex-direction: column;
-        /* width: 50%; */
+        width: 50%;
         position: absolute;
         top: 30%;
         left: 15%;
@@ -237,10 +226,10 @@
     .wrapBtnSwapDiv {
         display: flex;
         width: 38%;
-        /* padding-top: 49px; */
+        padding-top: 49px;
         left: 15%;
         top: 14%;
         position: absolute;
     }
     
-}
+} */
